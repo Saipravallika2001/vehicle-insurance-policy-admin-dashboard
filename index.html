@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/05be7476bb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <body>
+        <section id="menu">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="">
+                <h2>Vehicle Insurance</h2>
+            </div>
+            <div class="items">
+                <li><i class="fas fa-sticky-note"></i><a href="index.html">Policy Details </a></li>
+                <li><i class="fas fa-chart-pie"></i><a href="#"> My Assignments </a></li>
+                 <li><i class="fas fa-scroll"></i><a href="#"> Reports </a></li>
+                <li><i class="fas fa-info"></i><a href="#"> Help </a></li>
+            </div>
+        </section>
+
+        <section id="interface">
+            <div class="navigation">
+                <div class="n1">
+                    <div>
+                        <i id="menu-btn" onclick="showMenu()" class="fas fa-bars"></i>
+                    </div>
+                    <div class="search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="profile">
+                    <h4 id="admin-name">Policy Admin</h4>
+                </div>
+            </div>
+             <h3 class="i-name">
+                Policy Details
+            </h3>
+            <div class="board">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <td>Policy Type</td>
+                            <td>Policy Benefits</td>
+                            <td>Tariff</td>
+                            <td>Premium Rate</td>
+                        </tr>
+                    </thead>
+                  <tbody>
+                        <tr>
+                        <td class="policy type">
+                                <p><b>Two wheeler insurance policy</b></p>
+                            </td>
+                            <td class="Benefits">
+                                <div class="Benefits">
+                                    <p><b>No claim bonus</b></p>
+                                </div>
+                            </td>
+                            
+                            </tr>
+                            <tr>
+                        <td class="policy type">
+                                <p><b>Four wheeler insurance policy</b></p>
+                            </td>
+                            <td class="Benefits">
+                                <div class="Benefits">
+                                    <p><b>Quick and easy process</b></p>
+                                </div>
+                            </td>
+                            
+                            </td>
+                            </tr>
+                            
+                  
+            </section>
+            
+</body>
+
+</html>
